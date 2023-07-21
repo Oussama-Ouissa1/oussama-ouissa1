@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header {
+    background-color: rgb(43, 40, 40);
+    height: 90px;
+    background-size: cover;
+    background-position: center;
+} 
+
+body {
+    background-image: url(ntr1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.ln {
+    color: aliceblue; 
+    padding: 0px 20px;
+    font-size: 20px;
+    border: 2px solid rgb(248, 158, 106);
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 900;
+}
+
+.ln span {
+    color: rgb(248, 158, 106);
+}
+
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 15px;
+    font-weight: 500;
+}
+
+
+ul li a:hover {
+    background: #ececec;
+    color: black;
+}
+
+ul li.lm a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cls {
+    border: 2px solid rgb(155, 177, 225);
+    width: 600px;
+    background-image: url(cfak.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    height: 260px;
+    box-shadow: 15px, 15px, 5px rgb(150, 144, 144);
+}
+
+.cls p {
+    line-height: 50px;
+}
+
+.cls button {
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(155, 177, 225);
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 5px;
+    opacity: 0.8;
+    margin-top: 200px;
+}
+
+.cls button:hover {
+    opacity: 1;
+    background-color: rgb(85, 84, 84);
+    color: #ececec;
+}
+
+#ds {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cls1 {
+    border: 2px solid rgb(155, 177, 225);
+    width: 600px;
+    background-color: rgb(150, 144, 144);
+    padding: 0px 10px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.cls1 p {
+    line-height: 67px;
+}
+
+.cls1 button {
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(155, 177, 225);
+    border: 1px solid rgb(55, 55, 55);   
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.cls1 button:hover {
+    opacity: 1;
+    background-color: rgb(85, 84, 84);
+    color: #ececec;
+}
+
+.cls3 {
+    border: 2px solid rgb(155, 177, 225);
+    width: 600px;
+    background-image:url(snop1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 10px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-size: 25px;
+    height: 260px;
+}
+
+.cls3 p {
+    line-height: 67px;
+}
+
+
+.cls3 button {
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(155, 177, 225);
+    border: 1px solid rgb(55, 55, 55);   
+    border-radius: 5px;
+    opacity: 0.8;
+    margin-top: 200px;
+}
+
+.cls3 button:hover {
+    opacity: 1;
+    background-color: rgb(85, 84, 84);
+    color: #ececec;
+}
+
+.cls2 {
+    border: 2px solid rgb(155, 177, 225);
+    width: 600px;
+    background-color: rgb(150, 144, 144);
+    padding: 0px 10px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.cls2 p {
+    line-height: 67px;
+}
+
+.cls2 button {
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(155, 177, 225);
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.cls2 button:hover {
+    opacity: 1;
+    background-color: rgb(85, 84, 84);
+    color: #ececec;
+}
+
+span {
+    word-spacing: 50px;
+}
+
+
+.dz {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mdl {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(55, 55, 55);
+    background-color: rgb(0, 0, 0);
+    z-index: 6;
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+.modl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid wheat;
+    background-color: #ececec;
+    padding: 20px 0px;
+}
+
+.modl h1 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.cl1 {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.cl2 {
+    color: rgb(155, 84, 2);
+}
+
+
+.modl button {
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 40%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: aquamarine;
+    font-weight: bolder;
+}
+
+.mdl1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(55, 55, 55);
+    background-color: rgb(0, 0, 0);
+    z-index: 6;
+    padding: 20px 30px;
+    font-size: 17px;
+}
+
+.modl1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid wheat;
+    background-color: #ececec;
+    padding: 20px 0px;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.modl1 h1 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-top: 180px;
+}
+
+.modl1 button {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 40%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: aquamarine;
+    font-weight: bolder;
+}
+
+.cl4 {
+    margin-top: 20px;
+}
+
+.cl5 {
+    color: rgb(155, 84, 2);
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30px;
+}
